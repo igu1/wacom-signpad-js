@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Signature Capture</title>
+    <meta name="description" content="Professional digital signature capture with Wacom device support">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <main class="signature-container">
+        <header class="signature-header">
+            <h1>Digital Signature Capture</h1>
+            <p class="instructions">Please sign in the designated area below</p>
+        </header>
+        
+        <section class="signature-pad">
+            <canvas id="signature-canvas" aria-label="Signature area"></canvas>
+        </section>
+
+        <section class="signature-controls">
+            <button id="clear-btn" class="btn btn-secondary">Clear Signature</button>
+            <button id="save-btn" class="btn btn-primary">Save Signature</button>
+        </section>
+
+        <section class="signature-data">
+            <h2>Signature Data</h2>
+            <textarea id="signature-data" class="data-output" readonly 
+                     aria-label="Signature data in base64 format"></textarea>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</html>
