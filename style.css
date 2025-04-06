@@ -101,13 +101,3 @@ body {
     background-color: #f8f9fa;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .signature-container {
-        padding: 1.5rem;
-    }
-    
-    .signature-controls {
-        flex-direction: column;
-    }
-}

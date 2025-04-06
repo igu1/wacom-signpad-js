@@ -1,7 +1,3 @@
-/**
- * Wacom Signature Pad Integration
- * Professional implementation for digital signature capture
- */
 $(document).ready(function() {
     // Load SignaturePad library dynamically
     const signaturePadScript = document.createElement('script');
